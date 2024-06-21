@@ -27,8 +27,8 @@ public class CustomerSpecificationUtils {
                 predicates.add(criteriaBuilder.equal(customer.get("city"), customerFilters.getCity()));
             }
 
-            if (null != customerFilters.getName()) {
-                predicates.add(criteriaBuilder.equal(root.get("name"), customerFilters.getName()));
+            if (null != customerFilters.getFirstName()) {
+                predicates.add(criteriaBuilder.equal(root.get("firstName"), customerFilters.getFirstName()));
             }
 
 
