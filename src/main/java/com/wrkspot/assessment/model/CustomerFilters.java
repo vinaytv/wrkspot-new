@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 public class CustomerFilters {
 
-    private String name;
+    private String firstName;
 
     private String city;
 
